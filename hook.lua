@@ -228,7 +228,7 @@ function GetTable()
 end
 
 function HasHook(event_name)
-	return events[event_name]
+	return events[event_name] != nil
 end
 
 --[[---------------------------------------------------------
