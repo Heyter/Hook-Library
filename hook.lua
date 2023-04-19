@@ -227,6 +227,10 @@ function GetTable()
 	return new_events
 end
 
+function HasHook(event_name)
+	return events[event_name]
+end
+
 --[[---------------------------------------------------------
 	Name: Call
 	Args: string hookName, table gamemodeTable, vararg args
